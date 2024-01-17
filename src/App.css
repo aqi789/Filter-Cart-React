@@ -1,0 +1,36 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.buttons-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.cards-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    flex: 0 0 calc(33.33% - 20px);
+    text-align: center;
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: #eee;
+}
+.button {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: 7px;
+    margin: 5px;
+}
+.button:hover {
+    background-color: #ccc;
+}
+.box {
+    display: flex;
+    margin-top: 10px;
+}
+h1 {
+    text-align: center;
+}
